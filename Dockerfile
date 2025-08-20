@@ -2,6 +2,6 @@ FROM python:3.10
 
 WORKDIR /app
 
-COPY ..
+COPY . .
 
 CMD ["python", "check_marks.py"]
